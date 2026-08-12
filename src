@@ -1,18 +1,14 @@
-import "./globals.css";
+* {
+  box-sizing: border-box;
+}
 
-export const metadata = {
-  title: "MoreTalent",
-  description: "Recruitment automation for DG Ventures",
-};
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
-  return (
-    <html lang="en">
-      <body>{children}</body>
-    </html>
-  );
+body {
+  background: #f5f7fb;
+  color: #172033;
 }
