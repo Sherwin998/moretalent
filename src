@@ -1,1 +1,36 @@
+export default function Home() {
+  return (
+    <main
+      style={{
+        fontFamily: "system-ui, sans-serif",
+        minHeight: "100vh",
+        padding: "60px 24px",
+        background: "#f5f7fb",
+      }}
+    >
+      <div
+        style={{
+          maxWidth: 900,
+          margin: "0 auto",
+          background: "#ffffff",
+          padding: 48,
+          borderRadius: 20,
+          boxShadow: "0 10px 40px rgba(0,0,0,0.08)",
+        }}
+      >
+        <h1 style={{ fontSize: 42, marginBottom: 12 }}>
+          MoreTalent
+        </h1>
 
+        <p style={{ fontSize: 20 }}>
+          Recruitment automation for DG Ventures.
+        </p>
+
+        <p>
+          Candidate application → 2-minute introduction video →
+          recruiter review → hiring manager decision.
+        </p>
+      </div>
+    </main>
+  );
+}
